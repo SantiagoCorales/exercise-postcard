@@ -1,152 +1,152 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
 }
 
 .postcard {
-  position: relative;
-  width: 600px;
-  border: 2px solid black;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  gap: 20px;
-  min-height: 350px; 
+	position: relative;
+	width: 600px;
+	border: 2px solid black;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	gap: 20px;
+	min-height: 350px;
 }
 
 .center-button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
 }
 
 .center-button button {
-  padding: 10px 20px;
-  font-size: 14px;
-  background-color: #888888;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  color: white;
-  box-shadow: 0 4px #555;
-  border-radius: 4px;
-  transition: all 0.2s ease;
+	padding: 10px 20px;
+	font-size: 14px;
+	background-color: #888888;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	color: white;
+	box-shadow: 0 4px #555;
+	border-radius: 4px;
+	transition: all 0.2s ease;
 }
 
 .center-button button:active {
-  box-shadow: 0 2px #555;
-  transform: translateX(-50%) translateY(2px);
+	box-shadow: 0 2px #555;
+	transform: translateX(-50%) translateY(2px);
 }
 
 .center-button button:hover {
-  background-color: #777777;
+	background-color: #777777;
 }
 
 .left {
-  width: 55%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .right {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px;
 }
 
 .form-inputs {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .input-group {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid gray;
-  padding: 5px 0;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	padding: 5px 0;
 }
 
 .input-group input {
-  flex: 1;
-  border: none;
-  outline: none;
-  font-size: 14px;
-  font-family: inherit;
-  background: transparent;
+	flex: 1;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-family: inherit;
+	background: transparent;
 }
 
 .input-group .material-icons {
-  margin-left: 8px;
-  font-size: 20px;
-  color: gray;
+	margin-left: 8px;
+	font-size: 20px;
+	color: gray;
 }
 
 textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid gray;
-  font-size: 14px;
-  font-family: inherit;
-  resize: none;
-  background: transparent;
-    padding-top: 2px;
-  padding-bottom: 2px;
-  line-height: 0.6;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 14px;
+	font-family: inherit;
+	resize: none;
+	background: transparent;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 0.6;
 }
 
 button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 14px;
-  background-color: #888888;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  color: white;
-  box-shadow: 0 4px #555;
-  border-radius: 4px;
-  transition: all 0.2s ease;
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 14px;
+	background-color: #888888;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	color: white;
+	box-shadow: 0 4px #555;
+	border-radius: 4px;
+	transition: all 0.2s ease;
 }
 
 button:active {
-  box-shadow: 0 2px #555;
-  transform: translateY(2px);
+	box-shadow: 0 2px #555;
+	transform: translateY(2px);
 }
 
 button:hover {
-  background-color: #777777;
+	background-color: #777777;
 }
 
 @media (max-width: 650px) {
-  .postcard {
-    flex-direction: column;
-  }
+	.postcard {
+		flex-direction: column;
+	}
 
-  .left,
-  .right {
-    width: 100%;
-    align-items: center;
-  }
+	.left,
+	.right {
+		width: 100%;
+		align-items: center;
+	}
 
-  .form-inputs {
-    width: 100%;
-  }
+	.form-inputs {
+		width: 100%;
+	}
 }
