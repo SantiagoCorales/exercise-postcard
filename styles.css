@@ -43,7 +43,6 @@ body {
 
 .center-button button:active {
 	box-shadow: 0 2px #555;
-	transform: translateX(-50%) translateY(2px);
 }
 
 .center-button button:hover {
